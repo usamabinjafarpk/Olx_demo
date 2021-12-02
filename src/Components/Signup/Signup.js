@@ -37,7 +37,7 @@ const handleSubmit =(e)=>{
   return (
     <div>
       <div className="signupParentDiv">
-        <img width="200px" height="200px" src={Logo}></img>
+        <img width="200px" height="200px" src={Logo} alt="image"/>
         <form onSubmit={handleSubmit} >
           <label htmlFor="fname">Username</label>
           <br />

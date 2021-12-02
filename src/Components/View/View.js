@@ -21,7 +21,7 @@ function View() {
       <div className="imageShowDiv">
         <img
           src={postDetails.url}
-          alt=""
+          alt="image"
         />
       </div>
       <div className="rightSection">
