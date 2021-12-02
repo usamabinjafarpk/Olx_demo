@@ -111,6 +111,13 @@
   background-color: black;
   height: 2px;
 }
+.loginPage span{
+  
+}
+.loginPage span:hover {
+  cursor: pointer;
+  color:#ffce32;
+}
 
 .loginPage a{
   text-decoration: none;
