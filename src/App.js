@@ -14,12 +14,12 @@ import View from './Pages/ViewPost'
 import Home from './Pages/Home';
 
 function App() {
-  const {user,setUser} =useContext(AuthContext)
+  const {setUser} =useContext(AuthContext)
   const {firebase} =useContext(FirebaseContext)
 useEffect(()=>{
   firebase.auth().onAuthStateChanged((user)=>{
     setUser(user)
-    
+     
   })
 })
 
